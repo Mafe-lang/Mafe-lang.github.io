@@ -1,0 +1,28 @@
+body {
+    background-image: url('https://imgproxy.lokalavisen.dk/awlunDd7MFuH7uMc2xedlrLkxop3SxqyhnutnPGBodY/resize:fill:940:0:0/plain/https%3A%2F%2Fbilleder.lokalavisen.dk%2Fpictures%2Fimage%2F13742660%2Fuo4l4s%2FALTERNATES%2Fmaster-3_2%2Fadobestock-bingo-banko-jpeg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
+  }
+  
+  
+  #Fortekst {
+  font: caption;
+  font-size: large;
+  font-style: initial;
+  font-synthesis: style;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  
+  }
+  
+  
+  section {
+  margin-top: 150px;
+  margin-left: -685px;
+  }
+  
+  
+  nav {
+    margin-left: 390px;
+  }

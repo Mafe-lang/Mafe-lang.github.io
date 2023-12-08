@@ -1,0 +1,421 @@
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    font-size: 80px;
+    text-shadow: 2px 2px 20px grey;
+}
+
+#Subheader_1 {
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    top: 200px;
+}
+
+#Subheader_2 {
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    top: 550px;
+}
+
+#Subheader_3 {
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    top: 900px;
+}
+
+.Display_Bruger_Email_Box {
+    padding: 5px;
+    position: fixed;
+    background-color: rgb(129, 254, 129); 
+    box-shadow: 0 0 2px 2px grey;
+    top: 5px;
+    left: 5px
+}
+
+.Email_Input {
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+#Change_Email_Valg {
+    cursor: pointer;
+    padding: 5px;
+    background-color: rgb(159, 158, 158);
+    box-shadow: 0 0 1px 1px grey;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}
+
+.Cell_1_1.clicked,
+.Cell_1_2.clicked,
+.Cell_1_3.clicked,
+.Cell_1_4.clicked,
+.Cell_1_5.clicked,
+.Cell_1_6.clicked,
+.Cell_1_7.clicked,
+.Cell_1_8.clicked,
+.Cell_1_9.clicked,
+.Cell_2_1.clicked,
+.Cell_2_2.clicked,
+.Cell_2_3.clicked,
+.Cell_2_4.clicked,
+.Cell_2_5.clicked,
+.Cell_2_6.clicked,
+.Cell_2_7.clicked,
+.Cell_2_8.clicked,
+.Cell_2_9.clicked, 
+.Cell_3_1.clicked,
+.Cell_3_2.clicked,
+.Cell_3_3.clicked,
+.Cell_3_4.clicked,
+.Cell_3_5.clicked,
+.Cell_3_6.clicked,
+.Cell_3_7.clicked,
+.Cell_3_8.clicked,
+.Cell_3_9.clicked, 
+.Cell_2_1_1.clicked,
+.Cell_2_1_2.clicked,
+.Cell_2_1_3.clicked,
+.Cell_2_1_4.clicked,
+.Cell_2_1_5.clicked,
+.Cell_2_1_6.clicked,
+.Cell_2_1_7.clicked,
+.Cell_2_1_8.clicked,
+.Cell_2_1_9.clicked,
+.Cell_2_2_1.clicked,
+.Cell_2_2_2.clicked,
+.Cell_2_2_3.clicked,
+.Cell_2_2_4.clicked,
+.Cell_2_2_5.clicked,
+.Cell_2_2_6.clicked,
+.Cell_2_2_7.clicked,
+.Cell_2_2_8.clicked,
+.Cell_2_2_9.clicked, 
+.Cell_2_3_1.clicked,
+.Cell_2_3_2.clicked,
+.Cell_2_3_3.clicked,
+.Cell_2_3_4.clicked,
+.Cell_2_3_5.clicked,
+.Cell_2_3_6.clicked,
+.Cell_2_3_7.clicked,
+.Cell_2_3_8.clicked,
+.Cell_2_3_9.clicked,
+.Cell_3_1_1.clicked,
+.Cell_3_1_2.clicked,
+.Cell_3_1_3.clicked,
+.Cell_3_1_4.clicked,
+.Cell_3_1_5.clicked,
+.Cell_3_1_6.clicked,
+.Cell_3_1_7.clicked,
+.Cell_3_1_8.clicked,
+.Cell_3_1_9.clicked,
+.Cell_3_2_1.clicked,
+.Cell_3_2_2.clicked,
+.Cell_3_2_3.clicked,
+.Cell_3_2_4.clicked,
+.Cell_3_2_5.clicked,
+.Cell_3_2_6.clicked,
+.Cell_3_2_7.clicked,
+.Cell_3_2_8.clicked,
+.Cell_3_2_9.clicked, 
+.Cell_3_3_1.clicked,
+.Cell_3_3_2.clicked,
+.Cell_3_3_3.clicked,
+.Cell_3_3_4.clicked,
+.Cell_3_3_5.clicked,
+.Cell_3_3_6.clicked,
+.Cell_3_3_7.clicked,
+.Cell_3_3_8.clicked,
+.Cell_3_3_9.clicked {
+    background-color: #00ff00; 
+}
+
+.Banko_Spaces_1 {
+    position: relative;
+    width: 550px; 
+    height: 150px;  
+    padding: 40px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 165px;
+}
+
+.Table_1 {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.Banko_Spaces_2 {
+    position: relative;
+    width: 550px; 
+    height: 150px;  
+    padding: 40px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 225px;
+    left: 165px;
+}
+
+.Table_2 {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.Banko_Spaces_3 {
+    position: relative;
+    width: 550px; 
+    height: 150px;  
+    padding: 40px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 450px;
+    left: 165px;
+}
+
+.Row_1,
+.Row_2,
+.Row_3, 
+.Row_2_1,
+.Row_2_2, 
+.Row_2_3,
+.Row_3_1, 
+.Row_3_2, 
+.Row_3_3 {
+    width: 600px; 
+    height: 62px;
+    justify-content: flex-start; 
+    align-items: flex-start;  
+    display: inline-flex
+}
+
+.Cell_1_1,
+.Cell_1_2,
+.Cell_1_3,
+.Cell_1_4,
+.Cell_1_5,
+.Cell_1_6,
+.Cell_1_7,
+.Cell_1_8,
+.Cell_2_1,
+.Cell_2_2,
+.Cell_2_3,
+.Cell_2_4,
+.Cell_2_5,
+.Cell_2_6,
+.Cell_2_7,
+.Cell_2_8,
+.Cell_2_1_1, 
+.Cell_2_1_2, 
+.Cell_2_1_3, 
+.Cell_2_1_4, 
+.Cell_2_1_5,
+.Cell_2_1_6,
+.Cell_2_1_7,
+.Cell_2_1_8,
+.Cell_2_2_1,
+.Cell_2_2_2,
+.Cell_2_2_3,
+.Cell_2_2_4,
+.Cell_2_2_5,
+.Cell_2_2_6,
+.Cell_2_2_7,
+.Cell_2_2_8,
+.Cell_3_1_1, 
+.Cell_3_1_2, 
+.Cell_3_1_3, 
+.Cell_3_1_4, 
+.Cell_3_1_5,
+.Cell_3_1_6,
+.Cell_3_1_7,
+.Cell_3_1_8,
+.Cell_3_2_1,
+.Cell_3_2_2,
+.Cell_3_2_3,
+.Cell_3_2_4,
+.Cell_3_2_5,
+.Cell_3_2_6,
+.Cell_3_2_7,
+.Cell_3_2_8 {
+    width: 62px; 
+    height: 62px; 
+    border: 2px #3A3A3C solid; 
+    border-right: none;
+    border-bottom: none;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex
+}
+
+.Cell_3_1,
+.Cell_3_2,
+.Cell_3_3,
+.Cell_3_4,
+.Cell_3_5,
+.Cell_3_6,
+.Cell_3_7,
+.Cell_3_8,
+.Cell_2_3_1, 
+.Cell_2_3_2,
+.Cell_2_3_3,
+.Cell_2_3_4,
+.Cell_2_3_5,
+.Cell_2_3_6,
+.Cell_2_3_7,
+.Cell_2_3_8,
+.Cell_3_3_1, 
+.Cell_3_3_2,
+.Cell_3_3_3,
+.Cell_3_3_4,
+.Cell_3_3_5,
+.Cell_3_3_6,
+.Cell_3_3_7,
+.Cell_3_3_8  {
+    width: 62px; 
+    height: 62px; 
+    border: 2px #3A3A3C solid; 
+    border-right: none;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex
+}
+
+.Cell_1_9,
+.Cell_2_9,
+.Cell_2_1_9,
+.Cell_2_2_9,
+.Cell_3_1_9,
+.Cell_3_2_9 {
+    width: 62px; 
+    height: 62px; 
+    border: 2px #3A3A3C solid; 
+    border-bottom: none;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex
+}
+
+.Cell_3_9,
+.Cell_2_3_9,
+.Cell_3_3_9 {
+    width: 62px; 
+    height: 62px; 
+    border: 2px #3A3A3C solid; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex
+}
+
+
+.Letter_1_1,
+.Letter_1_2,
+.Letter_1_3,
+.Letter_1_4,
+.Letter_1_5,
+.Letter_1_6,
+.Letter_1_7,
+.Letter_1_8,
+.Letter_1_9,
+.Letter_2_1,
+.Letter_2_2,
+.Letter_2_3,
+.Letter_2_4,
+.Letter_2_5,
+.Letter_2_6,
+.Letter_2_7,
+.Letter_2_8,
+.Letter_2_9,
+.Letter_3_1,
+.Letter_3_2,
+.Letter_3_3,
+.Letter_3_4,
+.Letter_3_5,
+.Letter_3_6,
+.Letter_3_7,
+.Letter_3_8,
+.Letter_3_9,
+.Letter_2_1_1,
+.Letter_2_1_2,
+.Letter_2_1_3,
+.Letter_2_1_4,
+.Letter_2_1_5,
+.Letter_2_1_6,
+.Letter_2_1_7,
+.Letter_2_1_8,
+.Letter_2_1_9,
+.Letter_2_2_1,
+.Letter_2_2_2,
+.Letter_2_2_3,
+.Letter_2_2_4,
+.Letter_2_2_5,
+.Letter_2_2_6,
+.Letter_2_2_7,
+.Letter_2_2_8,
+.Letter_2_2_9,
+.Letter_2_3_1,
+.Letter_2_3_2,
+.Letter_2_3_3,
+.Letter_2_3_4,
+.Letter_2_3_5,
+.Letter_2_3_6,
+.Letter_2_3_7,
+.Letter_2_3_8,
+.Letter_2_3_9,
+.Letter_3_1_1,
+.Letter_3_1_2,
+.Letter_3_1_3,
+.Letter_3_1_4,
+.Letter_3_1_5,
+.Letter_3_1_6,
+.Letter_3_1_7,
+.Letter_3_1_8,
+.Letter_3_1_9,
+.Letter_3_2_1,
+.Letter_3_2_2,
+.Letter_3_2_3,
+.Letter_3_2_4,
+.Letter_3_2_5,
+.Letter_3_2_6,
+.Letter_3_2_7,
+.Letter_3_2_8,
+.Letter_3_2_9,
+.Letter_3_3_1,
+.Letter_3_3_2,
+.Letter_3_3_3,
+.Letter_3_3_4,
+.Letter_3_3_5,
+.Letter_3_3_6,
+.Letter_3_3_7,
+.Letter_3_3_8,
+.Letter_3_3_9 {
+    color: black;
+    font-size: 32px; 
+    font-family: Arial; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    line-height: 32px; 
+    word-wrap: break-word
+}

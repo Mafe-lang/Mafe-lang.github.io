@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/PasswordGenerator/styles.css">
+    <title>Password Generator</title>
+</head>
+<body>
+
+    <div class="Password_Generator_Box">
+        <h3>Password Generator</h3>
+        <input type="text" placeholder="Lav password" class="Password_Text_Box">
+        <button class="New_Password_Button" onclick="">
+        <img class="New_Password_Icon" src="/PasswordGenerator/Assets/rotate-solid.svg"/>
+        </button>
+
+        <div class="Password_Slider_Container">
+            <p>Vælg mellem 16-50 karakterer:</p>
+            <input type="range" min="16" max="50" value="33" class="Password_Slider">
+            <p>Karakterer: <span class="Password_Length">33</span></p>
+        </div>
+
+        <div class="Options_Checkboxes">
+            <label>
+                <input type="checkbox" class="Include_Uppercase"> Store bogstaver
+            </label>
+            <label>
+                <input type="checkbox" class="Include_Lowercase"> Små bogstaver
+            </label>
+            <label>
+                <input type="checkbox" class="Include_Numbers"> Tal
+            </label>
+            <label>
+                <input type="checkbox" class="Include_Special_Characters"> Speciale karakterer
+            </label>
+        </div>
+    </div>
+
+    <script src="/PasswordGenerator/passwordGenerator.js"></script>
+</body>
+</html>

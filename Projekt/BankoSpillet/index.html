@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banko Spil</title>
+    <link rel="stylesheet" href="/BankoSpillet/styles.css">
+</head>
+<body>
+
+    <div class="Email_Input">
+        <input type="text" id="Email_Input" placeholder="Enter Email">   
+        <button id="Generer_Plader_Button" onclick="Tjek_Email();">Generer Plader</button>
+    </div>
+
+    <div id="Display_Bruger_Email"></div>
+
+    <button id="Change_Email_Valg" onclick="Reset_Page()" style="display: none;">Vælg anden email</button> 
+
+<div id="wrapper">   
+    <h1>Fredagsbar Banko</h1>
+
+
+    <h2 id="Subheader_1">Plade 1</h2>
+    <h2 id="Subheader_2">Plade 2</h2>
+    <h2 id="Subheader_3">Plade 3</h2>
+
+
+    <div class="Banko_Spaces_1">
+        <div class="Table_1">
+            <div class="Row_1">
+                <div class="Cell_1_1" onclick="Change_Color(this)">
+                    <div class="Letter_1_1"></div>
+                </div>
+                <div class="Cell_1_2" onclick="Change_Color(this)">
+                    <div class="Letter_1_2"></div>
+                </div>
+                <div class="Cell_1_3" onclick="Change_Color(this)">
+                    <div class="Letter_1_3"></div>
+                </div>
+                <div class="Cell_1_4" onclick="Change_Color(this)">
+                    <div class="Letter_1_4"></div>
+                </div>
+                <div class="Cell_1_5" onclick="Change_Color(this)">
+                    <div class="Letter_1_5"></div>
+                </div>
+                <div class="Cell_1_6" onclick="Change_Color(this)">
+                    <div class="Letter_1_6"></div>
+                </div>
+                <div class="Cell_1_7" onclick="Change_Color(this)">
+                    <div class="Letter_1_7"></div>
+                </div>
+                <div class="Cell_1_8" onclick="Change_Color(this)">
+                    <div class="Letter_1_8"></div>
+                </div>
+                <div class="Cell_1_9" onclick="Change_Color(this)">
+                    <div class="Letter_1_9"></div>
+                </div>
+            </div>
+     
+            <div class="Row_2">
+                <div class="Cell_2_1" onclick="Change_Color(this)">
+                    <div class="Letter_2_1"></div>
+                </div>
+                <div class="Cell_2_2" onclick="Change_Color(this)">
+                    <div class="Letter_2_2"></div>
+                </div>
+                <div class="Cell_2_3" onclick="Change_Color(this)">
+                    <div class="Letter_2_3"></div>
+                </div>
+                <div class="Cell_2_4" onclick="Change_Color(this)">
+                    <div class="Letter_2_4"></div>
+                </div>
+                <div class="Cell_2_5" onclick="Change_Color(this)">
+                    <div class="Letter_2_5"></div>
+                </div>
+                <div class="Cell_2_6" onclick="Change_Color(this)">
+                    <div class="Letter_2_6"></div>
+                </div>
+                <div class="Cell_2_7" onclick="Change_Color(this)">
+                    <div class="Letter_2_7"></div>
+                </div>
+                <div class="Cell_2_8" onclick="Change_Color(this)">
+                    <div class="Letter_2_8"></div>
+                </div>
+                <div class="Cell_2_9" onclick="Change_Color(this)">
+                    <div class="Letter_2_9"></div>
+                </div>
+            </div>
+     
+            <div class="Row_3">
+                <div class="Cell_3_1" onclick="Change_Color(this)">
+                    <div class="Letter_3_1"></div>
+                </div>
+                <div class="Cell_3_2" onclick="Change_Color(this)">
+                    <div class="Letter_3_2"></div>
+                </div>
+                <div class="Cell_3_3" onclick="Change_Color(this)">
+                    <div class="Letter_3_3"></div>
+                </div>
+                <div class="Cell_3_4" onclick="Change_Color(this)">
+                    <div class="Letter_3_4"></div>
+                </div>
+                <div class="Cell_3_5" onclick="Change_Color(this)">
+                    <div class="Letter_3_5"></div>
+                </div>
+                <div class="Cell_3_6" onclick="Change_Color(this)">
+                    <div class="Letter_3_6"></div>
+                </div>
+                <div class="Cell_3_7" onclick="Change_Color(this)">
+                    <div class="Letter_3_7"></div>
+                </div>
+                <div class="Cell_3_8" onclick="Change_Color(this)">
+                    <div class="Letter_3_8"></div>
+                </div>
+                <div class="Cell_3_9" onclick="Change_Color(this)">
+                    <div class="Letter_3_9"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Banko_Spaces_2">
+        <div class="Table_2">
+            <div class="Row_2_1">
+                <div class="Cell_2_1_1" onclick="Change_Color(this)">
+                    <div class="Letter_2_1_1"></div>
+                </div>
+                <div class="Cell_2_1_2" onclick="Change_Color(this)">
+                    <div class="Letter_2_1_2"></div>
+                </div>
+                <div class="Cell_2_1_3" onclick="Change_Color(this)">
+                    <div class="Letter_2_1_3"></div>
+                </div>
+                <div class="Cell_2_1_4" onclick="Change_Color(this)">
+                    <div class="Letter_2_1_4"></div>
+                </div>
+                <div class="Cell_2_1_5" onclick="Change_Color(this)">
+                    <div class="Letter_2_1_5"></div>
+                </div>
+                <div class="Cell_2_1_6" onclick="Change_Color(this)">
+                    <div class="Letter_2_1_6"></div>
+                </div>
+                <div class="Cell_2_1_7" onclick="Change_Color(this)">
+                    <div class="Letter_2_1_7"></div>
+                </div>
+                <div class="Cell_2_1_8" onclick="Change_Color(this)">
+                    <div class="Letter_2_1_8"></div>
+                </div>
+                <div class="Cell_2_1_9" onclick="Change_Color(this)">
+                    <div class="Letter_2_1_9"></div>
+                </div>
+            </div>
+     
+            <div class="Row_2_2">
+                <div class="Cell_2_2_1" onclick="Change_Color(this)">
+                    <div class="Letter_2_2_1"></div>
+                </div>
+                <div class="Cell_2_2_2" onclick="Change_Color(this)">
+                    <div class="Letter_2_2_2"></div>
+                </div>
+                <div class="Cell_2_2_3" onclick="Change_Color(this)">
+                    <div class="Letter_2_2_3"></div>
+                </div>
+                <div class="Cell_2_2_4" onclick="Change_Color(this)">
+                    <div class="Letter_2_2_4"></div>
+                </div>
+                <div class="Cell_2_2_5" onclick="Change_Color(this)">
+                    <div class="Letter_2_2_5"></div>
+                </div>
+                <div class="Cell_2_2_6" onclick="Change_Color(this)">
+                    <div class="Letter_2_2_6"></div>
+                </div>
+                <div class="Cell_2_2_7" onclick="Change_Color(this)">
+                    <div class="Letter_2_2_7"></div>
+                </div>
+                <div class="Cell_2_2_8" onclick="Change_Color(this)">
+                    <div class="Letter_2_2_8"></div>
+                </div>
+                <div class="Cell_2_2_9" onclick="Change_Color(this)">
+                    <div class="Letter_2_2_9"></div>
+                </div>
+            </div>
+     
+            <div class="Row_2_3">
+                <div class="Cell_2_3_1" onclick="Change_Color(this)">
+                    <div class="Letter_2_3_1"></div>
+                </div>
+                <div class="Cell_2_3_2" onclick="Change_Color(this)">
+                    <div class="Letter_2_3_2"></div>
+                </div>
+                <div class="Cell_2_3_3" onclick="Change_Color(this)">
+                    <div class="Letter_2_3_3"></div>
+                </div>
+                <div class="Cell_2_3_4" onclick="Change_Color(this)">
+                    <div class="Letter_2_3_4"></div>
+                </div>
+                <div class="Cell_2_3_5" onclick="Change_Color(this)">
+                    <div class="Letter_2_3_5"></div>
+                </div>
+                <div class="Cell_2_3_6" onclick="Change_Color(this)">
+                    <div class="Letter_2_3_6"></div>
+                </div>
+                <div class="Cell_2_3_7" onclick="Change_Color(this)">
+                    <div class="Letter_2_3_7"></div>
+                </div>
+                <div class="Cell_2_3_8" onclick="Change_Color(this)">
+                    <div class="Letter_2_3_8"></div>
+                </div>
+                <div class="Cell_2_3_9" onclick="Change_Color(this)">
+                    <div class="Letter_2_3_9"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Banko_Spaces_3">
+        <div class="Table_3">
+            <div class="Row_3_1">
+                <div class="Cell_3_1_1" onclick="Change_Color(this)">
+                    <div class="Letter_3_1_1"></div>
+                </div>
+                <div class="Cell_3_1_2" onclick="Change_Color(this)">
+                    <div class="Letter_3_1_2"></div>
+                </div>
+                <div class="Cell_3_1_3" onclick="Change_Color(this)">
+                    <div class="Letter_3_1_3"></div>
+                </div>
+                <div class="Cell_3_1_4" onclick="Change_Color(this)">
+                    <div class="Letter_3_1_4"></div>
+                </div>
+                <div class="Cell_3_1_5" onclick="Change_Color(this)">
+                    <div class="Letter_3_1_5"></div>
+                </div>
+                <div class="Cell_3_1_6" onclick="Change_Color(this)">
+                    <div class="Letter_3_1_6"></div>
+                </div>
+                <div class="Cell_3_1_7" onclick="Change_Color(this)">
+                    <div class="Letter_3_1_7"></div>
+                </div>
+                <div class="Cell_3_1_8" onclick="Change_Color(this)">
+                    <div class="Letter_3_1_8"></div>
+                </div>
+                <div class="Cell_3_1_9" onclick="Change_Color(this)">
+                    <div class="Letter_3_1_9"></div>
+                </div>
+            </div>
+     
+            <div class="Row_3_2">
+                <div class="Cell_3_2_1" onclick="Change_Color(this)">
+                    <div class="Letter_3_2_1"></div>
+                </div>
+                <div class="Cell_3_2_2" onclick="Change_Color(this)">
+                    <div class="Letter_3_2_2"></div>
+                </div>
+                <div class="Cell_3_2_3" onclick="Change_Color(this)">
+                    <div class="Letter_3_2_3"></div>
+                </div>
+                <div class="Cell_3_2_4" onclick="Change_Color(this)">
+                    <div class="Letter_3_2_4"></div>
+                </div>
+                <div class="Cell_3_2_5" onclick="Change_Color(this)">
+                    <div class="Letter_3_2_5"></div>
+                </div>
+                <div class="Cell_3_2_6" onclick="Change_Color(this)">
+                    <div class="Letter_3_2_6"></div>
+                </div>
+                <div class="Cell_3_2_7" onclick="Change_Color(this)">
+                    <div class="Letter_3_2_7"></div>
+                </div>
+                <div class="Cell_3_2_8" onclick="Change_Color(this)">
+                    <div class="Letter_3_2_8"></div>
+                </div>
+                <div class="Cell_3_2_9" onclick="Change_Color(this)">
+                    <div class="Letter_3_2_9"></div>
+                </div>
+            </div>
+     
+            <div class="Row_3_3">
+                <div class="Cell_3_3_1" onclick="Change_Color(this)">
+                    <div class="Letter_3_3_1"></div>
+                </div>
+                <div class="Cell_3_3_2" onclick="Change_Color(this)">
+                    <div class="Letter_3_3_2"></div>
+                </div>
+                <div class="Cell_3_3_3" onclick="Change_Color(this)">
+                    <div class="Letter_3_3_3"></div>
+                </div>
+                <div class="Cell_3_3_4" onclick="Change_Color(this)">
+                    <div class="Letter_3_3_4"></div>
+                </div>
+                <div class="Cell_3_3_5" onclick="Change_Color(this)">
+                    <div class="Letter_3_3_5"></div>
+                </div>
+                <div class="Cell_3_3_6" onclick="Change_Color(this)">
+                    <div class="Letter_3_3_6"></div>
+                </div>
+                <div class="Cell_3_3_7" onclick="Change_Color(this)">
+                    <div class="Letter_3_3_7"></div>
+                </div>
+                <div class="Cell_3_3_8" onclick="Change_Color(this)">
+                    <div class="Letter_3_3_8"></div>
+                </div>
+                <div class="Cell_3_3_9" onclick="Change_Color(this)">
+                    <div class="Letter_3_3_9"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="/BankoSpillet/app.js"></script>
+
+</body>
+</html>

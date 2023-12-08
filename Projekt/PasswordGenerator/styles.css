@@ -1,0 +1,59 @@
+.Password_Generator_Box {
+    position: relative;
+    height: 600px;
+    width: 500px;
+    padding: 5px;
+    background-color: rgb(63, 63, 89);
+    box-sizing: border-box;
+}
+
+.Password_Generator_Box h3 {
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.Password_Text_Box {
+    padding: 5px;
+    height: 40px;
+    width: 475px;
+    text-align: center;
+    background-color:  rgb(63, 63, 89);
+    color: white;
+    border: solid 2px white;
+    font-size: 17px;
+}
+
+.New_Password_Button {
+    position: absolute;
+    top: 105px; 
+    right: 10px; 
+    background-color: white; 
+    border: none; 
+    cursor: pointer;
+}
+
+.Password_Slider_Container {
+    color: white;
+}
+
+.Password_Slider {
+    width: 25%;
+}
+
+.Options_Checkboxes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: white;
+}
+
+.Options_Checkboxes label {
+    margin-bottom: 5px;
+}
+
+.Options_Checkboxes input {
+    margin-right: 5px;
+}
+
